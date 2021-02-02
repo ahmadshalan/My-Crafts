@@ -27,6 +27,8 @@ a {
 
     font-style: oblique;
     color: grey;
+    font-size: 20px;
+    
 }
 
 header h1 {
@@ -34,6 +36,9 @@ header h1 {
 
 text-align: center;
 background-color: floralwhite;
+font-style: unset;
+font-weight: bolder;
+color: teal;
 
 }
 
@@ -47,4 +52,5 @@ img {
 p {
 
     text-align: center;
+    font-size: 30px;
 }
