@@ -1,0 +1,50 @@
+html {
+
+
+    background-color: rgb(224, 30, 192);
+
+}
+
+ body nav ul li {
+
+
+    text-decoration : none;
+
+    padding: 50px;
+
+    display: inline-block;
+
+
+}
+
+a {
+
+    text-decoration: none;
+
+    margin-left: 60px;
+    padding: 30px;
+    background-color: fuchsia;
+
+    font-style: oblique;
+    color: grey;
+}
+
+header h1 {
+
+
+text-align: center;
+background-color: floralwhite;
+
+}
+
+img {
+
+    background-color: rgb(49, 48, 48);
+
+    
+}
+
+p {
+
+    text-align: center;
+}
