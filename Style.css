@@ -1,8 +1,6 @@
 html {
 
-
-    background-color: rgb(224, 30, 192);
-
+        background-color: rgb(238, 216, 188);
 }
 
  body nav ul li {
@@ -10,9 +8,11 @@ html {
 
     text-decoration : none;
 
-    padding: 50px;
+    padding: 30px;
 
     display: inline-block;
+
+    border-radius: 50px;
 
 
 }
@@ -23,11 +23,15 @@ a {
 
     margin-left: 60px;
     padding: 30px;
-    background-color: fuchsia;
+    background-color: rgb(160, 102, 160);
 
     font-style: oblique;
-    color: grey;
+    color: rgb(85, 70, 70);
     font-size: 20px;
+    border-color: rgb(20, 15, 20);
+    border-radius: 30px;
+    display: inline;
+    margin-left: 80px;
     
 }
 
@@ -39,12 +43,14 @@ background-color: floralwhite;
 font-style: unset;
 font-weight: bolder;
 color: teal;
+padding: 30px;
 
 }
 
 img {
 
     background-color: rgb(49, 48, 48);
+    padding: 5px;
 
     
 }
@@ -53,4 +59,28 @@ p {
 
     text-align: center;
     font-size: 30px;
+    font-style: italic;
 }
+
+
+
+section {
+
+    text-decoration-style: double;
+    max-width: 240px;
+
+  }
+  
+  .shape {
+
+    display: inline-block;
+    
+    width: 150px;
+    height: 150px;
+    background-color: maroon;
+    clip-path: circle();
+    shape-outside: circle();
+    shape-margin: 20px;
+  }
+
+  
