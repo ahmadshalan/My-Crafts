@@ -17,7 +17,7 @@ html {
 
 }
 
-a {
+li a {
 
     text-decoration: none;
 
@@ -32,6 +32,7 @@ a {
     border-radius: 30px;
     display: inline;
     margin-left: 80px;
+    
     
 }
 
@@ -82,5 +83,33 @@ section {
     shape-outside: circle();
     shape-margin: 20px;
   }
+
+  .circle{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+
+    color: darkkhaki;
+    text-align:center ;
+    background-color: rgb(118, 133, 104);
+    float: left;
+    padding: 15px;
+    
+  }
+
+  div {
+
+text-align: center;
+font-style: italic;
+font-size: 120%;
+
+
+
+
+  }
+
+
+
 
   
