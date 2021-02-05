@@ -21,7 +21,7 @@ li a {
 
     text-decoration: none;
 
-    margin-left: 60px;
+    margin-left: 80px;
     padding: 30px;
     background-color: rgb(160, 102, 160);
 
@@ -31,7 +31,7 @@ li a {
     border-color: rgb(20, 15, 20);
     border-radius: 30px;
     display: inline;
-    margin-left: 80px;
+    
     
     
 }
@@ -74,40 +74,49 @@ section {
   
   .shape {
 
-    display: inline-block;
     
-    width: 150px;
-    height: 150px;
+    
+    width: 180px;
+    height: 180px;
+    border-radius: 70%;
     background-color: maroon;
-    clip-path: circle();
-    shape-outside: circle();
-    shape-margin: 20px;
+    text-align: center;
+    
+    
+    
+    float: right;
+    padding: 15px;
+
+
   }
 
   .circle{
 
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 70%;
 
     color: darkkhaki;
     text-align:center ;
     background-color: rgb(118, 133, 104);
-    float: left;
+    float: right;
     padding: 15px;
     
   }
 
-  div {
+  section div a {
 
-text-align: center;
-font-style: italic;
-font-size: 120%;
-
-
-
+  text-decoration: none;
+  margin-top: 40px;
+  font-size: 180%;
+  
+  color: rgba(19, 18, 18, 0.884);
+  font-style: italic;
 
   }
+
+  
+
 
 
 
